@@ -8,3 +8,5 @@ def send_door_status(doorId, isOpen, timeStamp):
         "open": isOpen,
         "timestamp": timeStamp,
     })
+
+send_door_status()
